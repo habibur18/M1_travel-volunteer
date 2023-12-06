@@ -11,6 +11,7 @@ import Applyed from "../pages/UserProfile/Applyed";
 import Donate from "../pages/Donation/Donate";
 import Events from "../pages/Events/Events";
 import Blog from "../pages/Blog/Blog";
+import NotFound from "../pages/404/NotFound";
 
 const router = createBrowserRouter([
   {
@@ -70,6 +71,10 @@ const router = createBrowserRouter([
   {
     path: "blog",
     element: <Blog />,
+  },
+  {
+    path: "*",
+    element: <NotFound />,
   },
 ]);
 
