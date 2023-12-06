@@ -10,6 +10,7 @@ import Apply from "../pages/LoginRegistration/Apply";
 import Applyed from "../pages/UserProfile/Applyed";
 import Donate from "../pages/Donation/Donate";
 import Events from "../pages/Events/Events";
+import Blog from "../pages/Blog/Blog";
 
 const router = createBrowserRouter([
   {
@@ -65,6 +66,10 @@ const router = createBrowserRouter([
   {
     path: "events",
     element: <Events />,
+  },
+  {
+    path: "blog",
+    element: <Blog />,
   },
 ]);
 
