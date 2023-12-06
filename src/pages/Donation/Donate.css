@@ -1,0 +1,31 @@
+.donate-container {
+  @apply flex flex-col bg-blue-500 text-white;
+}
+
+.donate-header,
+.donate-info,
+.donate-more-info {
+  @apply p-8;
+}
+
+.donate-info {
+  @apply flex-grow flex flex-col md:flex-row justify-between items-center;
+}
+
+.donate-qr-code img {
+  @apply w-full max-w-xs md:max-w-md; /* Adjust the max-width as needed */
+}
+
+.donate-more-info ul {
+  @apply list-disc pl-6;
+}
+
+.image-gallery img {
+  @apply w-full mb-4;
+}
+
+.donate-footer {
+  @apply text-center py-4 bg-gray-800;
+}
+
+/* Add more styles as needed for your specific design */

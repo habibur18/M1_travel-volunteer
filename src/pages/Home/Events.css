@@ -1,0 +1,41 @@
+.activePagination {
+  background-color: red;
+}
+
+@media (max-width: 480px) {
+  /* CSS rules for small mobile devices */
+  .loadingWrapper {
+    width: 200px;
+  }
+}
+
+@media (max-width: 380px) {
+  /* CSS rules for small mobile devices */
+  .loadingWrapper {
+    width: 170px;
+  }
+}
+
+/* Styles for devices between 481px and 768px wide */
+@media (min-width: 481px) and (max-width: 768px) {
+  /* CSS rules for larger mobile devices and small tablets */
+  .loadingWrapper {
+    width: 300px;
+  }
+}
+
+/* Styles for devices between 769px and 1024px wide */
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* CSS rules for larger tablets and small laptops */
+  .loadingWrapper {
+    width: 270px;
+  }
+}
+
+/* Styles for devices above 1024px wide */
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .loadingWrapper {
+    width: 300px;
+  }
+  /* CSS rules for larger laptops and desktops */
+}
